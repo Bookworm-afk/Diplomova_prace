@@ -1,0 +1,37 @@
+2026-04-16 23:42:20,553 | INFO | === POL1 SHADOW WIN7 V40 START ===
+2026-04-16 23:42:20,667 | INFO | [SQL:LOCAL] Connected
+2026-04-16 23:42:20,845 | INFO | [SQL:PROD] Connected
+2026-04-16 23:42:21,849 | INFO | [DECISION] auto=True in_shift=False latched=False latch_until=- next_shift=2026-04-17 06:00:00 max_eta=328.6 active=6 should_start=False reason=Waiting
+2026-04-16 23:55:24,815 | INFO | [PERF] START MIDNIGHT_2355_0015 | tracked_positions=6
+2026-04-16 23:55:24,815 | INFO | [PERF] DETAIL pozice2 | T=48.0C | T_target=50.0C | dT=2.0C | ETA_XGB=87.6m | ETA_MLP=82.4m | ETA_MAX=87.6m
+2026-04-16 23:55:24,815 | INFO | [PERF] DETAIL pozice3 | T=55.0C | T_target=50.0C | dT=-5.0C | ETA_XGB=0.0m | ETA_MLP=0.0m | ETA_MAX=0.0m
+2026-04-16 23:55:24,816 | INFO | [PERF] DETAIL pozice5 | T=38.9C | T_target=65.0C | dT=26.1C | ETA_XGB=318.2m | ETA_MLP=329.5m | ETA_MAX=329.5m
+2026-04-16 23:55:24,816 | INFO | [PERF] DETAIL pozice7 | T=51.7C | T_target=65.0C | dT=13.3C | ETA_XGB=160.3m | ETA_MLP=159.0m | ETA_MAX=160.3m
+2026-04-16 23:55:24,816 | INFO | [PERF] DETAIL pozice10 | T=39.0C | T_target=36.0C | dT=-3.0C | ETA_XGB=0.0m | ETA_MLP=0.0m | ETA_MAX=0.0m
+2026-04-16 23:55:24,817 | INFO | [PERF] DETAIL pozice14 | T=38.8C | T_target=38.0C | dT=-0.8C | ETA_XGB=0.0m | ETA_MLP=0.0m | ETA_MAX=0.0m
+2026-04-16 23:55:24,817 | INFO | [PERF] MIDNIGHT SNAPSHOT | key=2026-04-17 | should_start=0
+2026-04-16 23:55:24,817 | INFO | [FORENSIC][ZATOP] ts=2026-04-16 23:55:24 auto=1 db_zatop=0 mem_zatop=0 should_start=0 in_shift=0 latched=0 latch_until=- next_shift=2026-04-17 06:00:00..2026-04-17 21:10:00 active=6 max_eta=329.5 reason=Waiting queue=SKIP_NO_CHANGE|MIDNIGHT_SNAPSHOT
+2026-04-16 23:56:25,244 | INFO | [PERF] ARRIVAL(backfill) pozice3 at 2026-04-17 01:55:54 | actual=120.5m
+2026-04-16 23:56:25,442 | INFO | [PERF] ARRIVAL(backfill) pozice10 at 2026-04-17 01:55:54 | actual=120.5m
+2026-04-16 23:56:25,527 | INFO | [PERF] ARRIVAL(backfill) pozice14 at 2026-04-17 01:55:54 | actual=120.5m
+2026-04-16 23:56:25,529 | INFO | [FORENSIC][ZATOP] ts=2026-04-16 23:56:24 auto=1 db_zatop=0 mem_zatop=0 should_start=0 in_shift=0 latched=0 latch_until=- next_shift=2026-04-17 06:00:00..2026-04-17 21:10:00 active=6 max_eta=329.5 reason=Waiting queue=SKIP_NO_CHANGE
+2026-04-16 23:58:26,385 | INFO | [DECISION] auto=True in_shift=False latched=False latch_until=- next_shift=2026-04-17 06:00:00 max_eta=329.6 active=6 should_start=False reason=Waiting
+2026-04-17 00:20:36,147 | INFO | [PERF] START PENDING_0_TO_1_SHADOW | tracked_positions=6
+2026-04-17 00:20:36,148 | INFO | [PERF] DETAIL pozice2 | T=48.0C | T_target=50.0C | dT=2.0C | ETA_XGB=83.0m | ETA_MLP=79.8m | ETA_MAX=83.0m
+2026-04-17 00:20:36,148 | INFO | [PERF] DETAIL pozice3 | T=55.0C | T_target=50.0C | dT=-5.0C | ETA_XGB=0.0m | ETA_MLP=0.0m | ETA_MAX=0.0m
+2026-04-17 00:20:36,149 | INFO | [PERF] DETAIL pozice5 | T=38.9C | T_target=65.0C | dT=26.1C | ETA_XGB=318.2m | ETA_MLP=329.5m | ETA_MAX=329.5m
+2026-04-17 00:20:36,149 | INFO | [PERF] DETAIL pozice7 | T=52.6C | T_target=65.0C | dT=12.4C | ETA_XGB=156.2m | ETA_MLP=151.5m | ETA_MAX=156.2m
+2026-04-17 00:20:36,150 | INFO | [PERF] DETAIL pozice10 | T=39.0C | T_target=36.0C | dT=-3.0C | ETA_XGB=0.0m | ETA_MLP=0.0m | ETA_MAX=0.0m
+2026-04-17 00:20:36,151 | INFO | [PERF] DETAIL pozice14 | T=38.9C | T_target=38.0C | dT=-0.9C | ETA_XGB=0.0m | ETA_MLP=0.0m | ETA_MAX=0.0m
+2026-04-17 00:20:36,151 | INFO | [PERF] SHADOW snapshot on pending edge (should_start 0->1).
+2026-04-17 00:20:36,152 | INFO | [FORENSIC][ZATOP] ts=2026-04-17 00:20:35 auto=1 db_zatop=0 mem_zatop=0 should_start=1 in_shift=0 latched=1 latch_until=2026-04-17 21:10:00 next_shift=2026-04-17 06:00:00..2026-04-17 21:10:00 active=6 max_eta=329.5 reason=AI Start: 329m queue=SKIP_PENDING_CMD|SNAPSHOT_PENDING_EDGE
+2026-04-17 00:21:36,589 | INFO | [PERF] ARRIVAL(backfill) pozice3 at 2026-04-17 02:20:54 | actual=120.3m
+2026-04-17 00:21:36,944 | INFO | [PERF] ARRIVAL(backfill) pozice10 at 2026-04-17 02:20:54 | actual=120.3m
+2026-04-17 00:21:37,045 | INFO | [PERF] ARRIVAL(backfill) pozice14 at 2026-04-17 02:20:54 | actual=120.3m
+2026-04-17 00:21:37,046 | INFO | [DECISION] auto=True in_shift=False latched=True latch_until=2026-04-17 21:10:00 next_shift=2026-04-17 06:00:00 max_eta=0.0 active=6 should_start=True reason=LATCH HOLD until 2026-04-17 21:10:00
+2026-04-17 00:21:37,054 | INFO | [FORENSIC][ZATOP] ts=2026-04-17 00:21:36 auto=1 db_zatop=0 mem_zatop=0 should_start=1 in_shift=0 latched=1 latch_until=2026-04-17 21:10:00 next_shift=2026-04-17 06:00:00..2026-04-17 21:10:00 active=6 max_eta=0.0 reason=LATCH HOLD until 2026-04-17 21:10:00 queue=SKIP_PENDING_CMD
+2026-04-17 01:22:17,126 | INFO | [FORENSIC][ZATOP] ts=2026-04-17 01:22:16 auto=1 db_zatop=0 mem_zatop=0 should_start=1 in_shift=0 latched=1 latch_until=2026-04-17 21:10:00 next_shift=2026-04-17 06:00:00..2026-04-17 21:10:00 active=6 max_eta=0.0 reason=LATCH HOLD until 2026-04-17 21:10:00 queue=SKIP_PENDING_CMD
+2026-04-17 01:39:27,894 | INFO | [PERF] ARRIVAL(backfill) pozice2 at 2026-04-17 03:38:53 | actual=223.5m
+2026-04-17 01:39:27,954 | INFO | [PERF] ARRIVAL(backfill) pozice2 at 2026-04-17 03:38:53 | actual=198.3m
+2026-04-17 02:14:47,616 | INFO | [PERF] ARRIVAL(backfill) pozice7 at 2026-04-17 04:13:54 | actual=258.5m
+2026-04-17 02:14:47,714 | INFO | [PERF] ARRIVAL(backfill) pozice7 at 2026-04-17 04:13:54 | actual=233.3m
