@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "created_at": "2026-04-27T08:59:52",
+  "data_mode": "augmented_cos_sin",
+  "seed": 42,
+  "test_ratio": 0.2,
+  "val_ratio": 0.2,
+  "mode_dirs": {
+    "heating": "C:\\Users\\U25546\\Desktop\\DP\\stazene\\NN\\modely_s_casem_navic\\train_allclean_DeltaT_cos_sin\\heating",
+    "cooling": "C:\\Users\\U25546\\Desktop\\DP\\stazene\\NN\\modely_s_casem_navic\\train_allclean_DeltaT_cos_sin\\cooling"
+  },
+  "splits": {
+    "heating": {
+      "pozice2": {
+        "train": [
+          "pozice2_09_12_2025_04.txt",
+          "pozice2_02_02_2026_03.txt",
+          "pozice2_04_11_2025_07.txt",
+          "pozice2_14_04_2026_04.txt",
+          "pozice2_07_04_2026_02.txt",
+          "pozice2_08_12_2025_03.txt",
+          "pozice2_08_02_2026_03.txt",
+          "pozice2_01_02_2026_02.txt",
+          "pozice2_12_04_2026_03.txt",
+          "pozice2_17_12_2025_03.txt",
+          "pozice2_19_03_2026_02.txt",
+          "pozice2_04_12_2025_11.txt",
+          "pozice2_26_01_2026_06.txt",
+          "pozice2_21_04_2026_05.txt",
+          "pozice2_10_12_2025_05.txt",
+          "pozice2_27_10_2025_02.txt",
+          "pozice2_13_11_2025_14.txt",
+          "pozice2_10_04_2026_02.txt",
+          "pozice2_24_03_2026_04.txt",
+          "pozice2_23_03_2026_03.txt",
+          "pozice2_14_12_2025_08.txt",
+          "pozice2_03_12_2025_10.txt",
+          "pozice2_14_11_2025_15.txt",
+          "pozice2_06_11_2025_09.txt",
+          "pozice2_26_10_2025_01.txt",
+          "pozice2_05_11_2025_08.txt",
+          "pozice2_28_11_2025_06.txt",
+          "pozice2_09_04_2026_07.txt",
+          "pozice2_23_11_2025_02.txt",
+          "pozice2_27_11_2025_05.txt",
+          "pozice2_16_11_2025_16.txt",
+          "pozice2_16_12_2025_02.txt",
+          "pozice2_07_11_2025_10.txt",
+          "pozice2_04_02_2026_04.txt",
+          "pozice2_01_03_2026_01.txt",
+          "pozice2_09_04_2026_01.txt",
+          "pozice2_29_03_2026_03.txt",
+          "pozice2_02_12_2025_09.txt",
+          "pozice2_15_01_2026_06.txt",
+          "pozice2_18_01_2026_07.txt",
+          "pozice2_17_02_2026_05.txt",
+          "pozice2_04_12_2025_01.txt",
+          "pozice2_18_01_2026_01.txt",
+          "pozice2_25_03_2026_01.txt",
+          "pozice2_12_01_2026_03.txt",
+          "pozice2_26_03_2026_05.txt",
+          "pozice2_11_11_2025_12.txt",
+          "pozice2_05_02_2026_05.txt",
+          "pozice2_20_01_2026_03.txt",
+          "pozice2_30_03_2026_04.txt"
+        ],
+        "val": [
+          "pozice2_30_11_2025_07.txt",
+          "pozice2_01_12_2025_08.txt",
+          "pozice2_22_02_2026_01.txt",
+          "pozice2_05_01_2026_04.txt",
+          "pozice2_07_01_2026_01.txt",
+          "pozice2_16_01_2026_01.txt",
+          "pozice2_07_01_2026_06.txt",
+          "pozice2_02_11_2025_05.txt",
+          "pozice2_07_12_2025_02.txt",
+          "pozice2_28_10_2025_03.txt",
+          "pozice2_03_03_2026_01.txt",
+          "pozice2_20_11_2025_01.txt",
+          "pozice2_12_12_2025_07.txt",
+          "pozice2_19_01_2026_02.txt",
+          "pozice2_15_02_2026_04.txt",
+          "pozice2_15_12_2025_09.txt"
+        ],
+        "test": [
+          "pozice2_01_03_2026_03.txt",
+          "pozice2_16_04_2026_05.txt",
+          "pozice2_22_01_2026_04.txt",
+          "pozice2_02_03_2026_02.txt",
+          "pozice2_14_01_2026_05.txt",
+          "pozice2_06_01_2026_05.txt",
+          "pozice2_17_04_2026_03.txt",
+          "pozice2_05_02_2026_01.txt",
+          "pozice2_22_01_2026_05.txt",
+          "pozice2_08_01_2026_02.txt",
+          "pozice2_15_12_2025_01.txt",
+          "pozice2_04_11_2025_06.txt",
+          "pozice2_19_04_2026_04.txt",
+          "pozice2_22_02_2026_08.txt",
+          "pozice2_17_02_2026_06.txt",
+          "pozice2_25_11_2025_03.txt"
+        ]
+      }
+    },
+    "cooling": {
+      "pozice2": {
+        "train": [
+          "pozice2_11_12_2025_03.txt",
+          "pozice2_08_12_2025_31.txt",
+          "pozice2_04_12_2025_29.txt",
+          "pozice2_08_11_2025_09.txt",
+          "pozice2_13_12_2025_06.txt",
+          "pozice2_26_03_2026_01.txt",
+          "pozice2_27_10_2025_01.txt",
+          "pozice2_11_11_2025_10.txt",
+          "pozice2_13_12_2025_07.txt",
+          "pozice2_28_02_2026_02.txt"
+        ],
+        "val": [
+          "pozice2_15_12_2025_08.txt",
+          "pozice2_12_12_2025_04.txt",
+          "pozice2_12_12_2025_05.txt",
+          "pozice2_10_12_2025_02.txt"
+        ],
+        "test": [
+          "pozice2_12_11_2025_11.txt",
+          "pozice2_05_02_2026_01.txt",
+          "pozice2_29_11_2025_25.txt",
+          "pozice2_06_11_2025_08.txt"
+        ]
+      }
+    }
+  }
+}
